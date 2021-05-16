@@ -9,12 +9,13 @@ import Car from "./components/Car";
 import CarTwo from './components/CarTwo';
 import Parent from './components/Parent';
 import Condition from './components/Condition';
+import List from './components/List';
 function App() {
   return (
 
     <div className="App">
 
-      <Condition></Condition>
+      <List></List>
     </div>
 
   );
