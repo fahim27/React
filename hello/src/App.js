@@ -7,13 +7,13 @@ import SubScriber from './components/Subscriber';
 import Counter from './components/Counter';
 import Car from "./components/Car";
 import CarTwo from './components/CarTwo';
+import Parent from './components/Parent';
 function App() {
   return (
 
     <div className="App">
 
-        <CarTwo brand="BMW" color="RED"></CarTwo>
-     
+        <Parent></Parent>
     </div>
 
   );
