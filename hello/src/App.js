@@ -5,13 +5,14 @@ import FunctinalComponent from "./components/FunctinalComponent";
 import Navbar from './components/Navbar';
 import SubScriber from './components/Subscriber';
 import Counter from './components/Counter';
-
+import Car from "./components/Car";
+import CarTwo from './components/CarTwo';
 function App() {
   return (
 
     <div className="App">
 
-        <Counter></Counter>
+        <CarTwo brand="BMW" color="RED"></CarTwo>
      
     </div>
 
