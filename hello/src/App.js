@@ -11,12 +11,12 @@ import Parent from './components/Parent';
 import Condition from './components/Condition';
 import List from './components/List';
 import Form from './components/Form';
+import Coma from './components/Coma';
 function App() {
   return (
 
     <div className="App">
-
-      <Form></Form>
+      <Coma></Coma>
     </div>
 
   );
