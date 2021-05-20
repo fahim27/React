@@ -14,11 +14,14 @@ import Form from './components/Form';
 import Coma from './components/Coma';
 import Refdemo from './components/Refdemo';
 import Portal from './components/Portal';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 function App() {
   return (
 
     <div className="App">
-      <Portal></Portal>
+      <ClickCounter></ClickCounter>
+      <HoverCounter></HoverCounter>
     </div>
 
   );
