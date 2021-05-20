@@ -13,11 +13,12 @@ import List from './components/List';
 import Form from './components/Form';
 import Coma from './components/Coma';
 import Refdemo from './components/Refdemo';
+import Portal from './components/Portal';
 function App() {
   return (
 
     <div className="App">
-      <Refdemo></Refdemo>
+      <Portal></Portal>
     </div>
 
   );
