@@ -21,11 +21,12 @@ import {UserProvider} from './components/CONTEXT/context'
 import Post from './components/HTTPS/Post';
 import HooksCounter from './components/HOOKS/HooksCounter';
 import HooksWithObject from './components/HOOKS/HooksWithObject';
+import UseEffect from './components/HOOKS/UseEffect';
 function App() {
   return (
 
     <div className="App">
-      <HooksWithObject></HooksWithObject>
+    <UseEffect></UseEffect>
       
     </div>
 
