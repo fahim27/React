@@ -16,12 +16,16 @@ import Refdemo from './components/Refdemo';
 import Portal from './components/Portal';
 import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
+import A from "./components/CONTEXT/A";
+import {UserProvider} from './components/CONTEXT/context'
 function App() {
   return (
 
     <div className="App">
-      <ClickCounter></ClickCounter>
-      <HoverCounter></HoverCounter>
+      <UserProvider  value="John">
+      <A></A>
+      </UserProvider>
+      
     </div>
 
   );
