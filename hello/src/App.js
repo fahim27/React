@@ -18,13 +18,13 @@ import ClickCounter from './components/ClickCounter';
 import HoverCounter from './components/HoverCounter';
 import A from "./components/CONTEXT/A";
 import {UserProvider} from './components/CONTEXT/context'
+import Post from './components/HTTPS/Post';
+import HooksCounter from './components/HOOKS/HooksCounter';
 function App() {
   return (
 
     <div className="App">
-      <UserProvider  value="John">
-      <A></A>
-      </UserProvider>
+      <HooksCounter></HooksCounter>
       
     </div>
 
