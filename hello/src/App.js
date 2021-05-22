@@ -22,11 +22,12 @@ import Post from './components/HTTPS/Post';
 import HooksCounter from './components/HOOKS/HooksCounter';
 import HooksWithObject from './components/HOOKS/HooksWithObject';
 import UseEffect from './components/HOOKS/UseEffect';
+import UseEffectOneTime from './components/HOOKS/UseEffectOneTime';
 function App() {
   return (
 
     <div className="App">
-    <UseEffect></UseEffect>
+      <UseEffectOneTime></UseEffectOneTime>
       
     </div>
 
